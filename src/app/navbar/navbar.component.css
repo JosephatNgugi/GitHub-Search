@@ -11,3 +11,20 @@ nav h1{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 30px;
 }
+.nav-link{
+    margin-right: 10rem;
+}
+.nav-link a{
+    font-family: 'Bebas Neue', cursive;
+    padding: 0.4rem;
+    margin: 0.3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000000;
+
+}
+.nav-link a:hover{
+    background-color: #0000006b;
+    color: #FFFFFF;
+    border-radius: 0.6rem;
+}
