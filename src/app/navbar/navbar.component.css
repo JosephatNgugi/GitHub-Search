@@ -12,7 +12,7 @@ nav h1{
     font-size: 30px;
 }
 .nav-link{
-    margin-right: 10rem;
+    margin-right: 7rem;
 }
 .nav-link a{
     font-family: 'Bebas Neue', cursive;
@@ -27,4 +27,16 @@ nav h1{
     background-color: #0000006b;
     color: #FFFFFF;
     border-radius: 0.6rem;
+}
+
+@media (max-width: 750px) {
+    /* *{
+        font-size: 120%;
+    } */
+    nav h1 span{
+        display:none;
+    }
+    .nav-link{
+        margin-right: 1rem;
+    }
 }
