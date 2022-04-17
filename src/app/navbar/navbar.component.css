@@ -7,12 +7,15 @@ nav{
     width: 100vw;
     background-color: #808080;
 }
+span{
+    padding: 0.4em;
+}
 nav h1{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 30px;
 }
 .nav-link{
-    margin-right: 7rem;
+    margin-right: 5rem;
 }
 .nav-link a{
     font-family: 'Bebas Neue', cursive;
