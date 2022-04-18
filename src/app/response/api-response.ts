@@ -1,17 +1,18 @@
 export interface RepoApiResponse {
-  repoName: string;
+  name: string;
   description: string;
-  repoLink: string;
-  liveLink: string;
-  repoDate: Date;
+  html_url: string;
+  homepage: string;
+  created_at: Date;
 }
 
 export interface UserApiInterface {
-  userName: string;
+  name: string;
+  avatar_url: string;
   type: string;
-  avatarUrl: string;
   bio: string;
   following: number;
   followers: number;
-  creationDate: Date;
+  created_at: Date;
+  repos_url: string
 }
