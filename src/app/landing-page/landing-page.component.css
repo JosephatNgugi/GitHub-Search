@@ -1,8 +1,9 @@
-.container{
+.container-fluid{
     padding-top: 6em;
 }
 h2{
     text-align: center;
+    font-size: 3em;
 }
 .col-6{
     padding: 1em;
@@ -11,4 +12,22 @@ h2{
 .row{
     background-color: rebeccapurple;
     margin: 0.3em;
+}
+.col-4{
+    padding: 2em;
+    text-align: center;
+}
+.box{
+    padding: 0.5em;
+    border-radius: 3em;
+    margin: 0.1em;
+    background-color: burlywood;
+}
+.date{
+    padding: 0.2em;
+    margin-top: 0.5em;
+    color: #FFFFFF;
+}
+.bio{
+    padding:0.8em;
 }
