@@ -10,7 +10,7 @@ nav{
 span{
     padding: 0.4em;
 }
-nav h1{
+nav h1,span{
     font-family: 'Rubik Moonrocks', cursive;
     font-size: 30px;
 }
