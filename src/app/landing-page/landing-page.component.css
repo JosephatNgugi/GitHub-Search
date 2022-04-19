@@ -4,13 +4,18 @@
 h2{
     text-align: center;
     font-size: 3em;
+    color: #FFFFFF;
+}
+h5{
+    color: #FFFFFF;
+    font-size: 2.2em;
 }
 .col-6{
     padding: 1em;
     background-color: aqua;
 }
 .row{
-    background-color: rebeccapurple;
+    /* background-color: rebeccapurple; */
     margin: 0.3em;
 }
 .col-4{
@@ -30,4 +35,6 @@ h2{
 }
 .bio{
     padding:0.8em;
+    color: #FFFFFF;
+
 }
