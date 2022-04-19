@@ -8,15 +8,27 @@ h2{
 }
 h5{
     color: #FFFFFF;
+    text-align: center;
     font-size: 2.2em;
 }
-.col-6{
+.col-5{
     padding: 1em;
     background-color: aqua;
+    margin: 0.3em;
+    border-radius: 0.2em;
 }
 .row{
     /* background-color: rebeccapurple; */
     margin: 0.3em;
+}
+.small{
+    min-height: 5vh;
+}
+.btn{
+    margin: 1em;
+}
+.center{
+    text-align: center;
 }
 .col-4{
     padding: 2em;

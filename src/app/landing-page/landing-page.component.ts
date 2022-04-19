@@ -10,8 +10,8 @@ import { UserDetails } from '../users';
 })
 export class LandingPageComponent implements OnInit {
 
-  userData!: UserDetails
-  userRepos!: Repos[]
+  userData!: UserDetails;
+  userRepos!: Repos[];
   // user: UserDetails;
 
   constructor(private githubservice: GitHubApiService) {
@@ -28,8 +28,6 @@ export class LandingPageComponent implements OnInit {
       }      
     )
     this.githubservice.getUserRepos().subscribe(data=>this.userRepos=data)
-    // console.log(UserDetails);
-
   }
 
 }
