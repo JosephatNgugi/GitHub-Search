@@ -7,6 +7,7 @@ export class UserDetails {
     public following: number,
     public followers: number,
     public created_at: Date,
-    public blog: string
+    public blog: string,
+    public public_repos:number
   ) {}
 }

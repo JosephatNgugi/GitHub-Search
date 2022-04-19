@@ -4,6 +4,8 @@ export class Repos {
     public description: string,
     public html_url: string,
     public homepage: string,
-    public created_at: Date
+    public created_at: Date,
+    public language:string,
+
   ) {}
 }
