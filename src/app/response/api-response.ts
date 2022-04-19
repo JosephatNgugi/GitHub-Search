@@ -14,5 +14,5 @@ export interface UserApiInterface {
   following: number;
   followers: number;
   created_at: Date;
-  repos_url: string
+  blog: string
 }

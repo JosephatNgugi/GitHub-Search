@@ -1,11 +1,12 @@
 export class UserDetails {
   constructor(
-    public userName: string,
+    public name: string,
+    public avatar_url: string,
     public type: string,
-    public avatarUrl: string,
     public bio: string,
     public following: number,
     public followers: number,
-    public creationDate: Date
+    public created_at: Date,
+    public blog: string
   ) {}
 }

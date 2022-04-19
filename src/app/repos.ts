@@ -1,9 +1,9 @@
 export class Repos {
-    constructor(
-        public repoName: string,
-        public description: string,
-        public repoLink: string,
-        public liveLink: string,
-        public repoDate: Date
-    ){}
+  constructor(
+    public name: string,
+    public description: string,
+    public html_url: string,
+    public homepage: string,
+    public created_at: Date
+  ) {}
 }
