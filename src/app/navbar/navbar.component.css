@@ -7,6 +7,18 @@ nav{
     width: 100vw;
     background-color: #808080;
 }
+.form-inline{
+    display: inline-flex;
+    position: absolute;
+    top: 1em;
+    right: 25em;
+    width: 19vw;
+    height: 6vh;
+}
+.btn{
+    margin-left: 0.3em;
+    color: #000000;
+}
 span{
     padding: 0.4em;
 }

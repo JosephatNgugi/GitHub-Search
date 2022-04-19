@@ -4,6 +4,7 @@ export interface RepoApiResponse {
   html_url: string;
   homepage: string;
   created_at: Date;
+  language: string;
 }
 
 export interface UserApiInterface {
@@ -14,5 +15,6 @@ export interface UserApiInterface {
   following: number;
   followers: number;
   created_at: Date;
-  blog: string
+  blog: string;
+  public_repos:number;
 }
