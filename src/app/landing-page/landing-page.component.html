@@ -1,4 +1,8 @@
 <div class="container-fluid">
+    <form class="form-inline my-2 my-lg-0"(submit)="searchUsers()">
+        <input class="form-control mr-sm-2" type="search" placeholder="GitHub Username" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
     <div class="row">
         <div class="col-12">
             <h2>{{userData.name.split(" ")[0]}}'s GITHUB</h2>

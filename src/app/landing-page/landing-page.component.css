@@ -6,6 +6,16 @@ h2{
     font-size: 3em;
     color: #FFFFFF;
 }
+.form-inline{
+    display: inline-flex;
+    width: 25vw;
+    height: 6vh;
+    float: right;
+}
+form .btn{
+    margin-left: 0.3em;
+    color: #000000;
+}
 h5{
     color: #FFFFFF;
     text-align: center;

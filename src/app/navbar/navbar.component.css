@@ -7,7 +7,7 @@ nav{
     width: 100vw;
     background-color: #808080;
 }
-.form-inline{
+/* .form-inline{
     display: inline-flex;
     position: absolute;
     top: 1em;
@@ -18,7 +18,7 @@ nav{
 .btn{
     margin-left: 0.3em;
     color: #000000;
-}
+} */
 span{
     padding: 0.4em;
 }

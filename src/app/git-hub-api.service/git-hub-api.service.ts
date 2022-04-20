@@ -16,6 +16,7 @@ export class GitHubApiService {
   constructor(private http: HttpClient) {
     this.userName = 'JosephatNgugi';
   }
+  changeUser(userName:string){this.userName = userName}
 
   getUserDetail(): Observable<UserApiInterface> {
     return this.http.get<UserApiInterface>(`${this.apiUrl}${this.userName}`);
@@ -24,6 +25,8 @@ export class GitHubApiService {
   getUserRepos(): Observable<RepoApiResponse[]> {
     return this.http.get<RepoApiResponse[]>(`${this.apiUrl}${this.userName}/repos`);
   }
+
+  
 
   /*getUser(){
     let promise = new Promise<void>((resolve, reject))=>{
