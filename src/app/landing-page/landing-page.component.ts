@@ -16,12 +16,12 @@ export class LandingPageComponent implements OnInit {
 
   constructor(private githubservice: GitHubApiService) {
     // this.user = new UserDetails('', '', '', '', 0, 0, new Date(), '');
-    
+    // this.githubservice.changeUser(this.userName)
   }
   searchUsers(){
-    this.githubservice.changeUser(this.userName);
-    this.githubservice.getUserDetail().subscribe(userData=>this.userData=userData)
-    // this.githubservice.getUserRepos().subscribe(data=>this.userRepos=data);
+    this.githubservice.changeUser(this.userName.replace(/\s+/g, ''));
+    this.githubservice.getUserDetail().subscribe(data=>this.userData=data)
+    this.githubservice.getUserRepos().subscribe(data=>this.userRepos=data);
     
     console.log(this.userData);
     console.log(this.userRepos);

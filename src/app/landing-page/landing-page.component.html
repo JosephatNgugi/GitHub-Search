@@ -1,7 +1,8 @@
 <div class="container-fluid">
     <form class="form-inline my-2 my-lg-0"(submit)="searchUsers()">
-        <input class="form-control mr-sm-2" type="search" placeholder="GitHub Username" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <input [(ngModel)]="userName" name="name" class="form-control mr-sm-2" type="search" placeholder="GitHub Username" aria-label="Search">
+        <button name="user" class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+       
     </form>
     <div class="row">
         <div class="col-12">

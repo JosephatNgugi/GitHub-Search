@@ -7,6 +7,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { UserComponent } from './user/user.component';
 import { CountPipe } from './pipes/count.pipe';
+import { FormsModule } from '@angular/forms';
+import { HoverDirective } from './hover.directive';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { CountPipe } from './pipes/count.pipe';
     NavbarComponent,
     LandingPageComponent,
     UserComponent,
-    CountPipe
+    CountPipe,
+    HoverDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     HttpClientModule,
   ],
   providers: [],

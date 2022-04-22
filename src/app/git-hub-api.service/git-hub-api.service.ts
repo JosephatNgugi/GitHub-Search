@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { UserDetails } from '../users';
 import { environment } from 'src/environments/environment';
 import { RepoApiResponse, UserApiInterface } from '../response/api-response';
 import { Observable } from 'rxjs';
